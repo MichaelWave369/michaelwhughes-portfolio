@@ -35,6 +35,11 @@ https://michaelwave369.github.io/michaelwhughes-portfolio/
 - **EnterTheField.org** - https://www.enterthefield.org/
 - **GitHub** - https://github.com/MichaelWave369
 - **LinkedIn** - https://www.linkedin.com/in/michaelhughes777/
+- **Indeed** - https://profile.indeed.com/p/michaelh-9y6d98g
+- **Gumroad** - https://microneesia.gumroad.com/
+- **YouTube / ARC Tower** - https://www.youtube.com/@ARCTower
+- **Suno / MichaelWave369** - https://suno.com/@michaelwave369
+- **Spotify** - https://open.spotify.com/artist/07baw1sa0EyrbxrAffDLYd
 - **SoundCloud / MicTek** - https://soundcloud.com/microneesia
 
 ## Zenodo publications
@@ -69,4 +74,4 @@ Interactive React portfolio for Michael W. Hughes - AI-assisted prototype builde
 
 ## Status
 
-v0.3.0 - Added public constellation hub, EnterTheField.org, professional/creative links, and Zenodo publication cards.
+v0.4.0 - Added Gumroad, Indeed, Spotify, Suno, YouTube / ARC Tower, and expanded the public constellation hub.
