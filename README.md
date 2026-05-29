@@ -4,7 +4,7 @@ Interactive React portfolio for **Michael W. Hughes**.
 
 **Positioning:** AI-assisted prototype builder and front-end deployment fixer.
 
-This project is a public portfolio, interactive resume, and proof-of-work landing page for focused side-gig services under a Parallax / PHI369 Labs inspired visual style.
+This project is a public portfolio, interactive resume, proof-of-work landing page, and public constellation hub for focused side-gig services under a Parallax / PHI369 Labs inspired visual style.
 
 ## Live site
 
@@ -29,6 +29,19 @@ https://michaelwave369.github.io/michaelwhughes-portfolio/
 - **Auralith369** - local-first visual alchemy workstation for creative editing and auditable creative receipts
 - **PocketBrain** - private, phone-first AI brain concept focused on local memory and personal control
 - **Agentora** - local-first multi-agent orchestration studio for Ollama and private AI teams
+
+## Public constellation links
+
+- **EnterTheField.org** - https://www.enterthefield.org/
+- **GitHub** - https://github.com/MichaelWave369
+- **LinkedIn** - https://www.linkedin.com/in/michaelhughes777/
+- **SoundCloud / MicTek** - https://soundcloud.com/microneesia
+
+## Zenodo publications
+
+- **Cannabis as Sacred Medicine** - https://zenodo.org/records/20420539 - DOI: 10.5281/zenodo.20420539
+- **Pain-Joy Continuum** - https://zenodo.org/records/20421291 - DOI: 10.5281/zenodo.20421291
+- **The Chill Convergence Principle** - https://zenodo.org/records/20422692
 
 ## Local development
 
@@ -56,4 +69,4 @@ Interactive React portfolio for Michael W. Hughes - AI-assisted prototype builde
 
 ## Status
 
-v0.2.0 - Parallax / PHI369 Labs visual pass, client packages, work-with-me flow, project links, and stronger contact CTA.
+v0.3.0 - Added public constellation hub, EnterTheField.org, professional/creative links, and Zenodo publication cards.
