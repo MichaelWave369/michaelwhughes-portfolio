@@ -46,6 +46,54 @@ const caseStudies = [
   },
 ];
 
+const publicLinks = [
+  {
+    name: 'EnterTheField.org',
+    href: 'https://www.enterthefield.org/',
+    label: 'Healing / reflection site',
+    text: 'A quiet Parallax field doorway for breath, reflection, privacy, Phi, and PhiOS entry points.',
+  },
+  {
+    name: 'GitHub',
+    href: 'https://github.com/MichaelWave369',
+    label: 'Code and prototypes',
+    text: 'Public repos, experiments, deployable apps, and proof-of-work artifacts under MichaelWave369.',
+  },
+  {
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/michaelhughes777/',
+    label: 'Professional profile',
+    text: 'Career profile, background, and professional contact surface for project and opportunity conversations.',
+  },
+  {
+    name: 'SoundCloud / MicTek',
+    href: 'https://soundcloud.com/microneesia',
+    label: 'Music and creative signal',
+    text: 'Positive-vibe music, humor, rhythm, and creative expression from the MicTek / Michaelwave side.',
+  },
+];
+
+const publications = [
+  {
+    name: 'Cannabis as Sacred Medicine',
+    href: 'https://zenodo.org/records/20420539',
+    doi: '10.5281/zenodo.20420539',
+    text: 'Evidence-informed public education, policy, testimony, harm-reduction, and dignity repair paper.',
+  },
+  {
+    name: 'Pain-Joy Continuum',
+    href: 'https://zenodo.org/records/20421291',
+    doi: '10.5281/zenodo.20421291',
+    text: 'Symbolic-operational reflective framework for mapping pain, knowledge, coherence, agency, and service.',
+  },
+  {
+    name: 'The Chill Convergence Principle',
+    href: 'https://zenodo.org/records/20422692',
+    doi: '10.5281/zenodo.20422692',
+    text: 'Practical systems heuristic for stable progress under complexity through alignment, persistence, and iteration.',
+  },
+];
+
 const packages = [
   {
     name: 'Quick Fix',
@@ -80,7 +128,7 @@ function App() {
         <div className="brandRow">
           <span>Parallax</span>
           <span>PHI369 Labs</span>
-          <span>v0.2</span>
+          <span>v0.3</span>
         </div>
         <p className="eyebrow">Interactive resume and prototype rescue desk</p>
         <h1>Michael W. Hughes</h1>
@@ -90,6 +138,7 @@ function App() {
         </p>
         <div className="heroActions">
           <a href="mailto:microneesia79@gmail.com?subject=Prototype%20or%20Repo%20Rescue%20Request" className="primary">Start a project</a>
+          <a href="https://www.enterthefield.org/" className="secondary" target="_blank" rel="noreferrer">Enter the Field</a>
           <a href="https://github.com/MichaelWave369" className="secondary" target="_blank" rel="noreferrer">View GitHub</a>
         </div>
       </section>
@@ -134,6 +183,36 @@ function App() {
               {item.tags.map((tag) => <span key={tag}>{tag}</span>)}
             </div>
             <a className="cardLink" href={item.href} target="_blank" rel="noreferrer">View project</a>
+          </article>
+        ))}
+      </section>
+
+      <section className="sectionHeader">
+        <p className="eyebrow">Public constellation</p>
+        <h3>Code, field work, research, and creative signal</h3>
+      </section>
+      <section className="linkGrid">
+        {publicLinks.map((link) => (
+          <article className="linkCard" key={link.name}>
+            <p className="packagePrice">{link.label}</p>
+            <h3>{link.name}</h3>
+            <p>{link.text}</p>
+            <a className="cardLink" href={link.href} target="_blank" rel="noreferrer">Open link</a>
+          </article>
+        ))}
+      </section>
+
+      <section className="sectionHeader">
+        <p className="eyebrow">Published research and papers</p>
+        <h3>Zenodo publications</h3>
+      </section>
+      <section className="publicationGrid">
+        {publications.map((pub) => (
+          <article className="publicationCard" key={pub.doi}>
+            <p className="doi">DOI: {pub.doi}</p>
+            <h3>{pub.name}</h3>
+            <p>{pub.text}</p>
+            <a className="cardLink" href={pub.href} target="_blank" rel="noreferrer">View publication</a>
           </article>
         ))}
       </section>
