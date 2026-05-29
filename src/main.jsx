@@ -66,6 +66,36 @@ const publicLinks = [
     text: 'Career profile, background, and professional contact surface for project and opportunity conversations.',
   },
   {
+    name: 'Indeed',
+    href: 'https://profile.indeed.com/p/michaelh-9y6d98g',
+    label: 'Hiring profile',
+    text: 'Resume and hiring profile for job applications, contract work, and employer-facing opportunities.',
+  },
+  {
+    name: 'Gumroad',
+    href: 'https://microneesia.gumroad.com/',
+    label: 'Digital shop',
+    text: 'Public storefront for digital releases, papers, guides, creative artifacts, and future PHI369 offerings.',
+  },
+  {
+    name: 'YouTube / ARC Tower',
+    href: 'https://www.youtube.com/@ARCTower',
+    label: 'Video channel',
+    text: 'Video home for ARC Tower, creative builds, field notes, talks, demos, and future project showcases.',
+  },
+  {
+    name: 'Suno / MichaelWave369',
+    href: 'https://suno.com/@michaelwave369',
+    label: 'AI music lab',
+    text: 'AI-assisted music experiments, songs, vibes, and sonic sketches from the MichaelWave369 signal.',
+  },
+  {
+    name: 'Spotify',
+    href: 'https://open.spotify.com/artist/07baw1sa0EyrbxrAffDLYd',
+    label: 'Artist profile',
+    text: 'Streaming artist page for released music, playlists, and public audio identity.',
+  },
+  {
     name: 'SoundCloud / MicTek',
     href: 'https://soundcloud.com/microneesia',
     label: 'Music and creative signal',
@@ -128,7 +158,7 @@ function App() {
         <div className="brandRow">
           <span>Parallax</span>
           <span>PHI369 Labs</span>
-          <span>v0.3</span>
+          <span>v0.4</span>
         </div>
         <p className="eyebrow">Interactive resume and prototype rescue desk</p>
         <h1>Michael W. Hughes</h1>
@@ -139,6 +169,7 @@ function App() {
         <div className="heroActions">
           <a href="mailto:microneesia79@gmail.com?subject=Prototype%20or%20Repo%20Rescue%20Request" className="primary">Start a project</a>
           <a href="https://www.enterthefield.org/" className="secondary" target="_blank" rel="noreferrer">Enter the Field</a>
+          <a href="https://open.spotify.com/artist/07baw1sa0EyrbxrAffDLYd" className="secondary" target="_blank" rel="noreferrer">Listen</a>
           <a href="https://github.com/MichaelWave369" className="secondary" target="_blank" rel="noreferrer">View GitHub</a>
         </div>
       </section>
@@ -189,7 +220,7 @@ function App() {
 
       <section className="sectionHeader">
         <p className="eyebrow">Public constellation</p>
-        <h3>Code, field work, research, and creative signal</h3>
+        <h3>Code, healing, research, hiring, shop, video, and music</h3>
       </section>
       <section className="linkGrid">
         {publicLinks.map((link) => (
